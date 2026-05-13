@@ -480,7 +480,7 @@ with tab_umum:
 
         kolom_tampil_umum = [
             kolom for kolom in [
-                "tanggal", "tanggal_scraping", "sumber", "judul",
+                "tanggal", "sumber", "judul",
                 "sentimen", "confidence_sentimen", "topik", "lokasi_diy",
                 "urgensi", "kata_kunci", "link"
             ]
@@ -605,7 +605,7 @@ with tab_pariwisata:
 
         kolom_tampil_pariwisata = [
             kolom for kolom in [
-                "tanggal", "tanggal_scraping", "sumber", "judul",
+                "tanggal", "sumber", "judul",
                 "sentimen", "confidence_sentimen",
                 "isu_perencanaan_pariwisata",
                 "subisu_pariwisata", "keyword_isu_pariwisata",
@@ -793,7 +793,7 @@ with tab_perencanaan:
             else:
                 kolom_bukti = [
                     kolom for kolom in [
-                        "tanggal", "tanggal_scraping", "sumber", "judul",
+                        "tanggal",  "sumber", "judul",
                         "sentimen", "confidence_sentimen",
                         "isu_perencanaan_pariwisata",
                         "subisu_pariwisata",
@@ -826,7 +826,7 @@ with tab_perencanaan:
 
                 kolom_negatif = [
                     kolom for kolom in [
-                        "tanggal", "tanggal_scraping", "sumber", "judul",
+                        "tanggal",  "sumber", "judul",
                         "sentimen", "confidence_sentimen",
                         "isu_perencanaan_pariwisata",
                         "subisu_pariwisata",
